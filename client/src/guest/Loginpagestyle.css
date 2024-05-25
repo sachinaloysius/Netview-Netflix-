@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+
+.LandingpageMain {
+  background: url("assets/netflixsignupbanner.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.NetflixLogo {
+  position: relative;
+  top: 0;
+  left: 130px;
+  width: 14vw;
+}
+.login_Table {
+    margin: -38px auto auto auto;
+  max-width: 430px;
+  max-height: 631px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+}
+
+.box_Heading {
+  margin-top: 50px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+.guestBoxButton {
+  margin-left: 60px;
+  width: 62%;
+  background-color: transparent;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-color: rgba(149, 144, 144, 0.7);
+  border-radius: 3px;
+  font-size: large;
+  color: white;
+}
+
+.guestBoxButton:focus {
+  border: 3px solid white;
+  border-radius: 7px;
+  color: white;
+}
+.guestboxAlert {
+  margin-left: 60px;
+  color: red;
+  width: 66%;
+  font-size: small;
+  margin-bottom: 10px;
+}
+.guestBoxSubmitButton {
+  margin-left: 60px;
+  width: 70%;
+  padding: 8px;
+  font-size: medium;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+.guestBoxSubmitButton:hover {
+  cursor: pointer;
+}
+.guestForgetPassword {
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.guestRememberme_Holder {
+  margin-left: 60px;
+}
+
+.guestRememberme_Holder > input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  position: relative;
+  border: 1px solid;
+  border-color: white;
+  margin-top: 10px;
+}
+
+.guestRememberme_Holder > input[type="checkbox"]::before {
+  content: "\2713";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.guestRememberme_Holder > input[type="checkbox"]:checked::before {
+  opacity: 1;
+}
+
+.guestRememberme_Holder > span {
+  margin-left: 10px;
+}
+.guestSignUp_Holder {
+  margin-top: 20px;
+  margin-left: 60px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+}
+
+.guestSignUp_Holder > a {
+  color: white;
+  text-decoration: none;
+}
+.guestSignUp_Holder > a:hover {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.guestDescription_Holder {
+  color: #8c8c8c;
+  margin-left: 60px;
+  width: 70%;
+  font-size: small;
+  margin-bottom: 100px;
+}
+.guestDescription_Holder > a {
+  margin-left: 5px;
+  color: #0071eb;
+  text-decoration: none;
+}
+.guestDescription_Holder > a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .LandingpageMain {
+    background: black;
+  }
+  .NetflixLogo {
+    position: relative;
+    top: 0px;
+    left: 0;
+    width: 28vw;
+  }
+  .box_Heading {
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+  .guestBoxButton {
+    margin-left: 0;
+    width: 90%;
+  }
+
+  .guestboxAlert {
+    margin-left: 0;
+    width: 100%;
+  }
+  .guestBoxSubmitButton {
+    margin-left: 0;
+    width: 98%;
+    padding: 10px;
+  }
+  .guestForgetPassword {
+    margin-bottom: 20px;
+  }
+  .guestRememberme_Holder {
+    margin-left: 10px;
+  }
+  .guestSignUp_Holder{
+    margin-left: 9px;
+  }
+  .guestDescription_Holder{
+    margin-left: 9px;
+  }
+}

@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+
+.SignupageLandingMain {
+  background: url("assets/netflixteaser.png"); 
+  height: 100vh;
+}
+
+.NavbarHolder {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbarHolderforSignupPage {
+  display: flex;
+  position: absolute;
+  top: 35px;
+  right: 150px;
+}
+.navbar_OptionSelector {
+  width: 113px;
+  height: 32px;
+  text-align: end;
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
+  font-size: medium;
+  margin-right: 15px;
+  border-radius: 3px;
+}
+
+.navbar_OptionSelector:active {
+  border: 10px solid white;
+  box-shadow: inset;
+  transition: width 2s;
+  transition-timing-function: ease-in-out;
+}
+.navbar_optionSelectorSymbol {
+  position: absolute;
+  color: white;
+  top: 6px;
+  left: 14px;
+}
+
+.navbar_Loginbtn {
+  background-color: red;
+  color: white;
+  width: 80px;
+  height: 33px;
+  font-weight: 500;
+  font-size: smaller;
+  border-radius: 4px;
+  border-color: rgba(0, 0, 0, 0);
+}
+.content_IntropartHeadlinesHolder {
+  color: white;
+  margin: 0 auto;
+  max-width: fit-content;
+  max-height: fit-content;
+  padding: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .SignupageLandingMain {
+    background: url("assets/netflixteaser.png");
+    background-repeat: no-repeat;
+  }
+  .navbarHolderforSignupPage {
+    display: flex;
+    position: absolute;
+    top: 25px;
+    right: 15px;
+  }
+ 
+  .navbar_OptionSelector {
+    width: 50px;
+    height: 32px;
+    background-color: transparent;
+    color: transparent;
+    font-weight: 500;
+    font-size: medium;
+    margin-right: 15px;
+    border-radius: 3px;
+  }
+ 
+}

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Footer_MainContainer{
+    background-color: black;
+    height: fit-content;
+    color: white;
+}
+
+.Fade_Bottom{
+    background-color:#211f1f;
+    height: 8px;
+}
+
+.Holder_footer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.row_footer{
+    display: flex;
+    flex-direction: column;
+}
+.row_footer>a{
+    color: white;
+    margin-top: 15px;
+    font-size: medium;
+}
+.row_footer>button{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    width: 125px;
+    height: 32px;
+    text-align: center;
+   background-color:transparent;
+   color: white;
+    font-weight: 500;
+    font-size: medium;
+    margin-right: 15px;
+    border-radius: 3px;
+   border: 1px solid white;
+   border-radius: 3px;
+}

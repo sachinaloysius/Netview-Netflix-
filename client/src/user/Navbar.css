@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+   
+    width: 100%;
+    background-color:#000000;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+   margin-bottom: 20px;
+   color: white;
+}
+
+.NetflixLogoStyle{
+    margin-top: 17px;
+    width: 130px;
+    margin-left: 80px;
+}
+.avatar{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+
+.navbar_leftside_Holder{
+display: flex;
+justify-content: space-evenly;
+width: 38%;
+}
+
+.navbar_leftside_Holder>button{
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    background-color: #000000;
+    color: white;
+    font-size: large;
+}
+
+.navbar_rightside_Holder{
+    position: absolute;
+    right: 20px;
+    top: 17px;
+   
+}
+
+.navbar_rightside_Holder>ul{
+    position: sticky;
+    right: 0px;
+    top: 42px;
+    background-color:transparent;
+    color:white;
+    width: 115px;
+    height: 55px;
+    list-style-type: none;
+    text-align: center;
+    display: none;
+    border: 1px solid white;
+}
+
+.navbar_rightside_Holder:hover>ul{
+   display: block;
+   cursor: pointer;
+}

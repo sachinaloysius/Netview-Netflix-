@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  grid-area: header;
+  background-color: blue;
+}
+
+.main {
+  grid-area: main;
+  background-color: black;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: brown;
+}
+
+.user_container {
+  display: grid;
+  height: 100vh;
+  grid-template-areas:
+    "header header header header header header header header"
+    "main main main main main main main main"
+    "main main main main main main main main"
+    "main main main main main main main main"
+    "footer footer footer footer footer footer footer footer";
+}

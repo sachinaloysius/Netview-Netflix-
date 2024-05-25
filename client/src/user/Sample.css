@@ -1,0 +1,26 @@
+.Sample_MainContainer {
+    background-color:black;
+
+  height: 50vh;
+    display: flex;
+  }
+  
+  .Container{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+  
+  }
+
+
+  .box2 {
+    visibility: visible;
+    position: sticky;
+    margin-top: -155px;
+
+
+  }
+  
